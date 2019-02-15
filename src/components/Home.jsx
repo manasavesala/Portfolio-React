@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Home(){
   var divStyle={
     backgroundImage: 'url('+bg+')',
-    height:800,
+    height:700,
     width:'100%',
     backgroundPosition: 'center',
     backgroundSize: 'cover',
@@ -34,7 +34,7 @@ function Home(){
     <div style={divStyle}>
       <h1 style={h1Style}>Manasa Vesala</h1>
       <h3 style={h3Style}>I'm a Seattle based web designer & front‑end developer focused on crafting clean  & user‑friendly experiences.</h3>
-      <h4 style={h4Style}><Link style={{textDecoration: 'none', color: 'white'}} to="/contact">Contact Me</Link></h4>
+      <h4 style={h4Style}><Link style={{textDecoration: 'none', color: 'black'}} to="/contact">Contact Me</Link></h4>
     </div>
   );
 }

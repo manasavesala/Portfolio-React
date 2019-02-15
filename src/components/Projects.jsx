@@ -1,6 +1,15 @@
 import React from 'react';
 import Project from './Project';
-import grace from '../assets/images/bg4.jpg';
+import grace from '../assets/images/homebg2.jpg';
+import bg from '../assets/images/homebg1.jpg';
+var divStyle={
+    backgroundImage: 'url('+bg+')',
+    height:700,
+    width:'100%',
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat'
+  };
 
 var projectsList = [
   {
@@ -43,7 +52,7 @@ var projectsList = [
 
 function Projects() {
   return (
-    <div>
+    <div style={divStyle}>
       <hr />
       {projectsList.map((project, index) =>
         <Project name={project.name}

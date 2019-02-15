@@ -4,7 +4,7 @@ import bg from '../assets/images/contactbg2.jpg';
 function About(){
     var divStyle={
         backgroundImage: 'url('+bg+')',
-        height:800,
+        height:700,
         width:'100%',
         backgroundPosition: 'center',
         backgroundSize: 'cover',
