@@ -1,11 +1,11 @@
 import React from 'react';
 
-function SideBar(){
+function About(){
   return (
     <div>
-      <h1>SideBar</h1>
+      <h1>About</h1>
     </div>
   );
 }
 
-export default SideBar;
+export default About;
