@@ -1,6 +1,6 @@
 # _Portfolio React_
 
-#### _A Webpage for Epicodus,React Week 2 project. 02.15.2019_
+#### _A Webpage for Epicodus,React Week 1 project. 02.15.2019_
 
 #### By _**Manasa Vesala**_
 
@@ -16,7 +16,7 @@ _A website for portfolio using react._
 ## Setup/Installation Requirements
 
 * _Install Node.js_
-* _Clone this repository https://github.com/manasavesala/.git_
+* _Clone this repository https://github.com/manasavesala/Portfolio-React.git_
 * _Navigate to the project folder in the terminal._
 * _In the terminal: Enter "npm install" to Install dependencies and plugins_ 
 * _Type in "npm run start" to start the app in your Chrome browswer._

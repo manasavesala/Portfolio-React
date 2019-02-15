@@ -26,15 +26,14 @@ function Home(){
     textAlign:'center',
     fontSize: '30px',
     margin:50,
-    border: '1px solid darkorange',
-    padding:5,
-    color:'white'
+    // border: '1px solid darkorange',
+    padding:5
   };
   return (
     <div style={divStyle}>
       <h1 style={h1Style}>Manasa Vesala</h1>
       <h3 style={h3Style}>I'm a Seattle based web designer & front‑end developer focused on crafting clean  & user‑friendly experiences.</h3>
-      <h4 style={h4Style}><Link style={{textDecoration: 'none', color: 'black'}} to="/contact">Contact Me</Link></h4>
+      <h4 style={h4Style}><Link style={{textDecoration: 'none', color: 'red'}} to="/contact">CONTACT ME</Link></h4>
     </div>
   );
 }

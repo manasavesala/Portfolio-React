@@ -4,7 +4,7 @@ import grace from '../assets/images/homebg2.jpg';
 import bg from '../assets/images/homebg1.jpg';
 var divStyle={
     backgroundImage: 'url('+bg+')',
-    height:700,
+    height:750,
     width:'100%',
     backgroundPosition: 'center',
     backgroundSize: 'cover',
@@ -52,15 +52,19 @@ var projectsList = [
 
 function Projects() {
   return (
-    <div style={divStyle}>
-      <hr />
-      {projectsList.map((project, index) =>
-        <Project name={project.name}
-          description={project.description}
-          image={project.image}
-          link={project.link}
-          key={index} />
-      )}
+    <div>
+        <br/>
+        <br/>
+        <div style={divStyle}>
+        <hr />
+        {projectsList.map((project, index) =>
+            <Project name={project.name}
+            description={project.description}
+            image={project.image}
+            link={project.link}
+            key={index} />
+        )}
+        </div>
     </div>
   );
 }
