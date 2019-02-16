@@ -6,7 +6,7 @@
 
 ## Description
 
-_A satic website for portfolio using react._
+_A website for portfolio using react basics._
 
 
 ## Outline Diagram

@@ -75,7 +75,7 @@ module.exports = {
         new HtmlWebpackPlugin({
       template:'template.ejs',
       appMountId: 'react-app-root',
-      title: 'Portfolio React',
+      title: 'Portfolio-React',
       filename: resolve(__dirname, "build", "index.html"),
     }),
   ]
