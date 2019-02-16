@@ -6,12 +6,12 @@
 
 ## Description
 
-_A website for portfolio using react._
+_A satic website for portfolio using react._
 
 
 ## Outline Diagram
 
-
+![Diagram](Diagram.png)
 
 ## Setup/Installation Requirements
 

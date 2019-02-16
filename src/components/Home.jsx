@@ -1,5 +1,5 @@
 import React from 'react';
-import bg from '../assets/images/bg4.jpg';
+import bg from '../assets/images/bg5.jpg';
 import { Link } from 'react-router-dom';
 
 function Home(){
@@ -20,7 +20,8 @@ function Home(){
     textAlign:'center',
     fontSize: '30px',
     paddingTop: 30,
-    margin:50
+    margin:50,
+    color:"white"
   };
   var h4Style={
     textAlign:'center',
