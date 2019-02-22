@@ -29,7 +29,7 @@ function NewProject(props) {
   };
   return (
     <div style={sh1}>
-    <hr/>
+      <hr/>
       <form onSubmit={handleNewProjectSubmission}>
         <h1 style={sh1}>Add new project</h1>
         <br/><br/>
