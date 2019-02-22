@@ -23,6 +23,9 @@ function Project(props){
         <h4>Description:{props.description}</h4>
         <h4>Technologies:{props.technologies}</h4>
         <h4><a href={props.link}>{props.link}</a></h4>
+        <button onClick={() => props.changeLikes(props.id)}
+        >👍</button>
+        <span>Likes: {props.likes}</span>
       </div>
     </div>
   );
@@ -32,7 +35,10 @@ Project.propTypes = {
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   technologies: PropTypes.string,
-  link: PropTypes.string
+  link: PropTypes.string,
+  likes: PropTypes.number,
+  changeLikes: PropTypes.func,
+  id: PropTypes.string,
 };
 
 export default Project;
