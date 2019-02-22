@@ -8,13 +8,13 @@ function Project(props){
   };
   var bioDiv = {
     float: 'left',
-    width: '44%',
-    height: '200px',
+    width: '80%',
+    height: '250px',
     border: '1px solid black',
     paddingTop: 10,
     paddingLeft: 20,
     marginLeft:30,
-    marginBottom: 30
+    marginBottom: 30,
   };
   return ( 
     <div style={bioDiv}>
@@ -22,7 +22,7 @@ function Project(props){
         <h3>{props.name}</h3>
         <h4>Description:{props.description}</h4>
         <h4>Technologies:{props.technologies}</h4>
-        <h4>{props.link}</h4>
+        <h4><a href={props.link}>{props.link}</a></h4>
       </div>
     </div>
   );

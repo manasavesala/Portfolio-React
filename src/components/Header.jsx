@@ -6,7 +6,7 @@ function Header(){
     backgroundColor:'#f2656f',
     height:'50px',
     paddingTop:'25px',
-    paddingLeft: '300px'
+    paddingLeft: '200px'
   };
   var astyle={
     display: 'inline',
@@ -19,6 +19,7 @@ function Header(){
       <a style={astyle}><Link style={{textDecoration: 'none', color: 'white'}} to="/about">About</Link></a>
       <a style={astyle}><Link style={{textDecoration: 'none', color: 'white'}} to="/projects">Projects</Link></a>
       <a style={astyle}><Link style={{textDecoration: 'none', color: 'white'}} to="/contact">Contact</Link></a>
+      <a style={astyle}><Link style={{textDecoration: 'none', color: 'white', fontSize:'15px'}} to="/addproject">-(Add New Project)</Link></a>
     </div>
   );
 }
