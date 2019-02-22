@@ -21,7 +21,7 @@ function Home(){
     fontSize: '30px',
     paddingTop: 30,
     margin:50,
-    color:"white"
+    color:'white'
   };
   var h4Style={
     textAlign:'center',

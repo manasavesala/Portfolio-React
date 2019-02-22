@@ -22,17 +22,17 @@ function Contact(){
     margin:50
   };
   var h4Style={
-      textAlign:"center",
-      color:"black",
-      fontSize:25,
-      paddingTop:20
-  }
+    textAlign:'center',
+    color:'black',
+    fontSize:25,
+    paddingTop:20
+  };
   var astyle={
-      paddingRight:20,
-      paddingLeft:20,
-      textDecoration:"none",
-      color:"red"
-  }
+    paddingRight:20,
+    paddingLeft:20,
+    textDecoration:'none',
+    color:'red'
+  };
   return (
     <div style={divStyle}>
       <h1 style={h1Style}>OK, LET’S CREATE SOMETHING GREAT</h1>

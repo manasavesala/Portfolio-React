@@ -2,26 +2,27 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Project(props){
-  var bioImg = {
-    width: '70%'
-  };
   var bioText = {
     fontFamily: 'sans-serif',
-    textAlign: 'center',
     color: 'black'
   };
   var bioDiv = {
     float: 'left',
-    width: '33%',
-    height: '400px'
+    width: '44%',
+    height: '200px',
+    border: '1px solid black',
+    paddingTop: 10,
+    paddingLeft: 20,
+    marginLeft:30,
+    marginBottom: 30
   };
-  return (
+  return ( 
     <div style={bioDiv}>
-      <hr />
       <div style={bioText}>
         <h3>{props.name}</h3>
-        <h4>{props.description}</h4>
-        <img style={bioImg} src={props.image} alt='pic'></img>
+        <h4>Description:{props.description}</h4>
+        <h4>Technologies:{props.technologies}</h4>
+        <h4>{props.link}</h4>
       </div>
     </div>
   );
@@ -30,7 +31,8 @@ function Project(props){
 Project.propTypes = {
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  image: PropTypes.string
+  technologies: PropTypes.string,
+  link: PropTypes.string
 };
 
 export default Project;
