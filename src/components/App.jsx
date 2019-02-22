@@ -69,7 +69,7 @@ class App extends React.Component {
           <Route  path='/contact' component={Contact} />
           <Route  path='/about' component={About} />
           <Route component={Error404} />
-          <Route  path='/addproject' component={NewProject} onNewProjectCreation={this.handleAddingNewProjectToList}/>
+          <Route  path='/new' component={NewProject} onNewProjectCreation={this.handleAddingNewProjectToList}/>
         </Switch>
       </div>
     );
