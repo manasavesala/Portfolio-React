@@ -18,7 +18,7 @@ class App extends React.Component {
           description: 'This is an online typing competition, TypeRacer, allows people to race against the computer.',
           technologies:'HTML,CSS,Angular 5,Firebase',
           link: 'https://typeracer-50606.firebaseapp.com/',
-          likes: 0,
+          likes: 3,
           id: '0'
         },
         {
@@ -26,7 +26,7 @@ class App extends React.Component {
           description: 'Allows users to input a single search term and view results from several job sites on a single page.',
           technologies:'HTML,CSS,Selenium WebDriver,ASP.Net Core MVC',
           link: 'https://github.com/manasavesala/JobSearch.Solution',
-          likes: 0,
+          likes: 2,
           id: '1'
         },
         {
@@ -34,7 +34,7 @@ class App extends React.Component {
           description: 'Text based horror adventure where while at home, your peaceful night turns into a nightmare when an unknown creature stalks you in your very own home.',
           technologies:'HTML,CSS,JavaScript,Bootstrap,jQuery',
           link:'http://maxdhs.github.io/no-way-out/',
-          likes: 0,
+          likes: 5,
           id: '2'
         },
         {
@@ -42,7 +42,7 @@ class App extends React.Component {
           description: 'A a website for a pizza company where a user can choose one or more individual toppings and a size to order a pizza and see the final cost',
           technologies:'HTML,CSS,JavaScript,Bootstrap,jQuery',
           link: 'https://manasavesala.github.io/Pizza-Website/',
-          likes: 0,
+          likes: 4,
           id: '3'
         },
         {
@@ -50,7 +50,7 @@ class App extends React.Component {
           description: 'MVC web application for a hair salon. where the owner should be able to add a list of the stylists, and for each stylist, add clients who see that stylist and view/add speciality and save that data into database.',
           technologies:'HTML,CSS,MAMP,MySQL,C#,.NET,ASP.Net Core MVC',
           link: 'https://github.com/manasavesala/HairSalon.Solution.git',
-          likes:0,
+          likes:7,
           id: '4'
         },
         {
@@ -58,7 +58,7 @@ class App extends React.Component {
           description: 'A website where the user can look up doctors in the portland area, based on name or a medical condition.',
           technologies:'HTML,CSS,JavaScript,node.js,npm',
           link: 'https://github.com/manasavesala/DoctorLookup-API-js.git',
-          likes: 0,
+          likes: 4,
           id: '5'
         }
       ]

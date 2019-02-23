@@ -6,12 +6,24 @@
 
 ## Description
 
-_A website for portfolio using react basics._
+_A website for portfolio using react._
 
 
 ## Outline Diagram
 
 ![Diagram](Diagram.png)
+
+
+## Layout of the Page
+
+* _Separate application into components._
+* _There will be a component with top header, about, home, contact,projects_
+* _If you click on about it takes to about page._
+* _If you click on Home it takes to Home page._
+* _If you click on contact it takes to contact page._
+* _If you click on projects it takes to projects page and shows all the projects._
+* _If you click on add new project, it takes to a page consinst of form to add new project and after submit you can see that prohect in the projects page_
+* _you can like a project if you like it._
 
 ## Setup/Installation Requirements
 
