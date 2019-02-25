@@ -1,6 +1,6 @@
 # _Portfolio React_
 
-#### _A Webpage for Epicodus,React Week 1 project. 02.15.2019_
+#### _A Webpage for Epicodus,React Week 2 project. 02.22.2019_
 
 #### By _**Manasa Vesala**_
 
@@ -22,7 +22,7 @@ _A website for portfolio using react._
 * _If you click on Home it takes to Home page._
 * _If you click on contact it takes to contact page._
 * _If you click on projects it takes to projects page and shows all the projects._
-* _If you click on add new project, it takes to a page consinst of form to add new project and after submit you can see that prohect in the projects page_
+* _If you click on add new project, it takes to a page consinst of form to add new project and after submit you can see that newly added project in the projects page list._
 * _you can like a project if you like it._
 
 ## Setup/Installation Requirements
